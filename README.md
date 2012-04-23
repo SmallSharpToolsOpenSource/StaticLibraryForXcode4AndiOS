@@ -46,7 +46,10 @@ This option allows you to target a specific archive.
 #### Apple Technical Q&A QA1490 
 
 Q:  Why do I get a runtime exception of "selector not recognized" when linking against an Objective-C 
-static library that contains categories? http://sstools.co/IkojjA  
+static library that contains categories? (http://sstools.co/IkojjA)  
+
+More Information
+----------------
 
 To learn more pick up Pro iOS 5 Tools from Apress. See Chapter 11 titled 
 "How Do I Share Some of This?" (http://sstools.co/IklJKs)  
