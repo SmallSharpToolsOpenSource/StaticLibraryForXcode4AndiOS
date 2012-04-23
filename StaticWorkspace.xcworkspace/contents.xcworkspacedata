@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:README.txt">
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:StaticApp/../StaticLibraryLinking.png">
    </FileRef>
    <FileRef
       location = "group:Static/Static.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Static/../StaticApp/StaticApp.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:StaticApp/../StaticLibraryLinking.png">
    </FileRef>
 </Workspace>
