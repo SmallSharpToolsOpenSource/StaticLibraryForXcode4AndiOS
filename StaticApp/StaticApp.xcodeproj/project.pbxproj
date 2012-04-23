@@ -253,6 +253,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/StaticWorkspace-hizaeagegeqwlnfqcjcjiaqnzumo/Build/Products/Debug-iphoneos\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -269,6 +270,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/StaticWorkspace-hizaeagegeqwlnfqcjcjiaqnzumo/Build/Products/Debug-iphoneos\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
