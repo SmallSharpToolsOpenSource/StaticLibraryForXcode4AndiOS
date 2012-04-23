@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.txt">
+   </FileRef>
+   <FileRef
+      location = "group:Static/Static.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Static/../StaticApp/StaticApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StaticApp/../StaticLibraryLinking.png">
+   </FileRef>
+</Workspace>
