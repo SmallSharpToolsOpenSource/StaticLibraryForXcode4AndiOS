@@ -1,9 +1,8 @@
 //
 //  UIView+RoundCorners.m
-//  Primary
 //
-//  Created by Brennan Stehling on 8/5/11.
-//  Copyright 2011 Marquette University. All rights reserved.
+//  Created by Brennan Stehling on 4/22/12.
+//  Copyright (c) 2012 SmallSharpTools LLC. All rights reserved.
 //
 
 #import "UIView+RoundCorners.h"
