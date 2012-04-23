@@ -4,7 +4,7 @@ Static Library for Xcode 4 and iOS
 Creating a Static Library is a great way to reuse code in a project but with Xcode 4 it can be 
 difficult to set up if you do not the following steps to set it up. And if your Static Library
 defines Categories, which are dynamic, you need to take an extra step to ensure your implementation
-is linked and available at run-time. This GitHub project is made available as a working example.
+is linked and available at run-time. This GitHub project is made available as a working example.  
 
 Steps
 -----
@@ -18,8 +18,8 @@ Steps
 7. If there are categories in the Static Library, add -all_load to Other Linker Flags under Linking
 8. Ensure all frameworks needed by the Static Library are also added to the main app
 
-SmallSharpTools
-Brennan Stehling
-http://twitter.com/SmallSharpTools
+SmallSharpTools  
+Brennan Stehling  
+http://twitter.com/SmallSharpTools  
 
-Apache License, Version 2.0
+Apache License, Version 2.0  
