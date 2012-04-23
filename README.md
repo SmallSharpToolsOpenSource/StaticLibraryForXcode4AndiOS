@@ -21,6 +21,8 @@ Steps
 
 See StaticLibraryLinking.png for example of Other Linker Flags  
 
+To learn more pick up Pro iOS 5 Tools from Apress. http://sstools.co/IklJKs  
+
 SmallSharpTools  
 Brennan Stehling  
 http://twitter.com/SmallSharpTools  
