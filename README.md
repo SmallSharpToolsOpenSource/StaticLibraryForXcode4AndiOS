@@ -23,6 +23,13 @@ Steps
 
 See StaticLibraryLinking.png for example of Other Linker Flags  
 
+Caveat
+------
+
+I found that I had to add Static.h to the StaticApp project because the Archive process failed to
+find it otherwise. This appears to be a mistake because running Build and Run works as intended without
+having to manually include a file in the StaticApp project instead of implicitly discovering the header.
+
 Linker Flags
 ------------
 
@@ -47,6 +54,10 @@ This option allows you to target a specific archive.
 
 Q:  Why do I get a runtime exception of "selector not recognized" when linking against an Objective-C 
 static library that contains categories? (http://sstools.co/IkojjA)  
+
+#### Using Open Source Static Libraries in Xcode 4  
+
+http://blog.carbonfive.com/2011/04/04/using-open-source-static-libraries-in-xcode-4/
 
 More Information
 ----------------

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2687B9801554523C0074F06C /* libStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2687B97F1554523C0074F06C /* libStatic.a */; };
+		2687B98715545B200074F06C /* Static.h in Headers */ = {isa = PBXBuildFile; fileRef = 2687B98615545B200074F06C /* Static.h */; };
 		26F09976154469AB00820725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F09975154469AB00820725 /* UIKit.framework */; };
 		26F09978154469AB00820725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F09977154469AB00820725 /* Foundation.framework */; };
 		26F0997A154469AB00820725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F09979154469AB00820725 /* CoreGraphics.framework */; };
@@ -15,10 +17,11 @@
 		26F09986154469AB00820725 /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F09985154469AB00820725 /* SAAppDelegate.m */; };
 		26F09989154469AB00820725 /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F09988154469AB00820725 /* SAViewController.m */; };
 		26F0998C154469AB00820725 /* SAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F0998A154469AB00820725 /* SAViewController.xib */; };
-		26F099A315446B0800820725 /* libStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F099A215446B0800820725 /* libStatic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2687B97F1554523C0074F06C /* libStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStatic.a; path = "../DerivedData/StaticWorkspace/Build/Products/Debug-iphoneos/libStatic.a"; sourceTree = "<group>"; };
+		2687B98615545B200074F06C /* Static.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Static.h; path = ../../Static/Static/Static.h; sourceTree = "<group>"; };
 		26F09971154469AB00820725 /* StaticApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F09975154469AB00820725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26F09977154469AB00820725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,7 +35,6 @@
 		26F09987154469AB00820725 /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
 		26F09988154469AB00820725 /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
 		26F0998B154469AB00820725 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SAViewController.xib; sourceTree = "<group>"; };
-		26F099A215446B0800820725 /* libStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStatic.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/StaticWorkspace-hizaeagegeqwlnfqcjcjiaqnzumo/Build/Products/Debug-iphoneos/libStatic.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F099A315446B0800820725 /* libStatic.a in Frameworks */,
+				2687B9801554523C0074F06C /* libStatic.a in Frameworks */,
 				26F0997A154469AB00820725 /* CoreGraphics.framework in Frameworks */,
 				26F09978154469AB00820725 /* Foundation.framework in Frameworks */,
 				26F09976154469AB00820725 /* UIKit.framework in Frameworks */,
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2687B983155454350074F06C /* Static Library Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2687B98615545B200074F06C /* Static.h */,
+			);
+			name = "Static Library Headers";
+			sourceTree = "<group>";
+		};
 		26F09966154469AB00820725 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +80,7 @@
 		26F09974154469AB00820725 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26F099A215446B0800820725 /* libStatic.a */,
+				2687B97F1554523C0074F06C /* libStatic.a */,
 				26F09979154469AB00820725 /* CoreGraphics.framework */,
 				26F09977154469AB00820725 /* Foundation.framework */,
 				26F09975154469AB00820725 /* UIKit.framework */,
@@ -81,6 +91,7 @@
 		26F0997B154469AB00820725 /* StaticApp */ = {
 			isa = PBXGroup;
 			children = (
+				2687B983155454350074F06C /* Static Library Headers */,
 				26F09984154469AB00820725 /* SAAppDelegate.h */,
 				26F09985154469AB00820725 /* SAAppDelegate.m */,
 				26F09987154469AB00820725 /* SAViewController.h */,
@@ -104,6 +115,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2687B97E1554435D0074F06C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2687B98715545B200074F06C /* Static.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		26F09970154469AB00820725 /* StaticApp */ = {
 			isa = PBXNativeTarget;
@@ -112,6 +134,8 @@
 				26F0996D154469AB00820725 /* Sources */,
 				26F0996E154469AB00820725 /* Frameworks */,
 				26F0996F154469AB00820725 /* Resources */,
+				2687B97E1554435D0074F06C /* Headers */,
+				2687B984155455DF0074F06C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -161,6 +185,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2687B984155455DF0074F06C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo BUILT_PRODUCTS_DIR = ${BUILT_PRODUCTS_DIR}\n\nls -lah \"${BUILT_PRODUCTS_DIR}\"\n\necho BUILT_PRODUCTS_DIR/usr/local/include\nls -lah \"${BUILT_PRODUCTS_DIR}/usr/local/include\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26F0996D154469AB00820725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -197,7 +237,7 @@
 		26F0998D154469AB00820725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -215,16 +255,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = "-ObjC";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Debug;
 		};
 		26F0998E154469AB00820725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -235,9 +276,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = "-ObjC";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -245,16 +287,25 @@
 		26F09990154469AB00820725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StaticApp/StaticApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				INFOPLIST_FILE = "StaticApp/StaticApp-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/StaticWorkspace-hizaeagegeqwlnfqcjcjiaqnzumo/Build/Products/Debug-iphoneos\"",
+					"$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/**",
+					"\"$(SRCROOT)/../DerivedData/StaticWorkspace/Build/Products/Debug-iphoneos\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(BUILT_PRODUCTS_DIR)/Static/usr/local/include/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -262,16 +313,25 @@
 		26F09991154469AB00820725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StaticApp/StaticApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				INFOPLIST_FILE = "StaticApp/StaticApp-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/StaticWorkspace-hizaeagegeqwlnfqcjcjiaqnzumo/Build/Products/Debug-iphoneos\"",
+					"$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/**",
+					"\"$(SRCROOT)/../DerivedData/StaticWorkspace/Build/Products/Debug-iphoneos\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(BUILT_PRODUCTS_DIR)/Static/usr/local/include/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

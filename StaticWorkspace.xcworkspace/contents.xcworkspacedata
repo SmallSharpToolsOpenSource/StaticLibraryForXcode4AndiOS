@@ -8,6 +8,12 @@
       location = "group:StaticApp/../StaticLibraryLinking.png">
    </FileRef>
    <FileRef
+      location = "group:LocationsPreferences.png">
+   </FileRef>
+   <FileRef
+      location = "group:WorkspaceSettings.png">
+   </FileRef>
+   <FileRef
       location = "group:Static/Static.xcodeproj">
    </FileRef>
    <FileRef

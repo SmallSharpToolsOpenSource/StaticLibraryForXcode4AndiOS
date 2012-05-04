@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26F09970154469AB00820725"
-               BuildableName = "StaticApp.app"
-               BlueprintName = "StaticApp"
-               ReferencedContainer = "container:StaticApp.xcodeproj">
+               BlueprintIdentifier = "26F098F8154460B200820725"
+               BuildableName = "libStatic.a"
+               BlueprintName = "Static"
+               ReferencedContainer = "container:Static/Static.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,15 +28,6 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26F09970154469AB00820725"
-            BuildableName = "StaticApp.app"
-            BlueprintName = "StaticApp"
-            ReferencedContainer = "container:StaticApp.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -47,15 +38,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26F09970154469AB00820725"
-            BuildableName = "StaticApp.app"
-            BlueprintName = "StaticApp"
-            ReferencedContainer = "container:StaticApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -65,15 +47,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26F09970154469AB00820725"
-            BuildableName = "StaticApp.app"
-            BlueprintName = "StaticApp"
-            ReferencedContainer = "container:StaticApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

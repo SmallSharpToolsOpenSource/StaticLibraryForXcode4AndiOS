@@ -124,6 +124,7 @@
 		26F098F0154460B200820725 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SA;
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "SmallSharpTools LLC";
 			};
@@ -199,6 +200,11 @@
 		26F09907154460B200820725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
 				DSTROOT = /tmp/Static.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Static/Static-Prefix.pch";
@@ -213,6 +219,11 @@
 		26F09908154460B200820725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
 				DSTROOT = /tmp/Static.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Static/Static-Prefix.pch";
